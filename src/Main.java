@@ -103,6 +103,6 @@ public class Main {
         } else {
             System.out.println("Ergebnis Addition " + add(a, b));
         }
-        /* Comments added by Abdul Salam
+        // Comments added by Abdul Salam
     }
 }
