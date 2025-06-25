@@ -80,6 +80,10 @@ public class Main {
 
     //        Schreibe eine Methode, die einen String als Parameter entgegennimmt und überprüft, ob es sich um ein Palindrom handelt (d. h. das Wort liest sich vorwärts und rückwärts gleich). Gibt true zurück, wenn es ein Palindrom ist, andernfalls false.
 
+    public static boolean checkPalindrom (String word) {
+        String wordReverse = new StringBuilder(word).reverse().toString();
+        return word.equals(wordReverse);
+    }
     public static void main(String[] args) {
         int a = 5;
         int b = 7;
