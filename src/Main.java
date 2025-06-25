@@ -61,7 +61,7 @@ public class Main {
 
     public static double makePositive(double a) {
         if (a >= 0) {
-            return a;
+            return a*3;
         } else {
             return a * -1;
         }
