@@ -51,6 +51,7 @@ public class Main {
         }
     }
 
+   // Hier ist mein Kommentar
     public static float makePositive(float a) {
         if (a >= 0) {
             return a;
