@@ -71,7 +71,7 @@ public class Main {
 
 
     //        Schreibe eine Methode, die überprüft, ob eine Zahl gerade ist. Gerade Zahlen sollen unverändert zurückgegeben werden, während ungerade Zahlen verdoppelt werden.
-    public static int doubleIfUneven(int number) {
+    public static int tripleIfUneven(int number) {
 
         if (number % 2 == 0) {
             return number;
