@@ -74,7 +74,7 @@ public class Main {
         if (number % 2 == 0) {
             return number;
         } else {
-            return number * 2;
+            return number * 3;
         }
     }
 
