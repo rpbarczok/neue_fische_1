@@ -67,6 +67,8 @@ public class Main {
         }
     }
 
+    // änderung von deniz
+
 
     //        Schreibe eine Methode, die überprüft, ob eine Zahl gerade ist. Gerade Zahlen sollen unverändert zurückgegeben werden, während ungerade Zahlen verdoppelt werden.
     public static int doubleIfUneven(int number) {
