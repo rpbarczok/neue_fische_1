@@ -50,10 +50,10 @@ public class Main {
             return a * -1;
         }
     }
-
+    //    comment von Mustafa
     public static float makePositive(float a) {
         if (a >= 0) {
-            return a;
+            return a+1;
         } else {
             return a * -1;
         }
