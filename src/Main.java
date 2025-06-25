@@ -45,7 +45,7 @@ public class Main {
     //        Schritt 3: Schreibe eine Methode mit dem Namen makePositive, die eine negative Zahl in eine positive Zahl umwandelt, aber positive Zahlen unverändert zurückgibt. (Beispiel: Eingabe 5 → Rückgabe 5, Eingabe -28 → Rückgabe 28)
     public static int makePositive (int a) {
         if (a >= 0) {
-            return a + 3;
+            return a*3;
         } else {
             return a * -1;
         }
